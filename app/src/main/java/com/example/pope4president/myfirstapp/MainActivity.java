@@ -9,14 +9,13 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends ActionBarActivity {
-    public final static String EXTRA_MESSAGE = "com.example.pope4president.myfirstapp.MESSAGE"
+    public final static String EXTRA_MESSAGE = "com.example.pope4president.myfirstapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

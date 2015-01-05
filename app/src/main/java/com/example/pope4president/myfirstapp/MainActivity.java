@@ -36,4 +36,9 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    /** Called when the user clicks on the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
+    }
 }
